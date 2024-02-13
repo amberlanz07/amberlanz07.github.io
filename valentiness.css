@@ -1,0 +1,40 @@
+body {
+  	background-image: url(Mario.jpeg);
+  	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+  	background-size: cover;
+}
+
+@font-face{
+	font-family: MyFont;
+	src:url(slkscr.ttf)
+}
+
+h1{
+	font-family: MyFont;
+	font-size:100px;
+	color:#FC0FC0;
+	text-align:center;
+	-webkit-text-stroke: 2px pink; 
+   text-stroke: 2px black; 
+
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+}
+
+.center:hover {
+	width: 100px;
+}
+
+p {
+	font-family: MyFont;
+	font-size:50px;
+	color:#FC0FC0;
+	text-align:center;
+}
